@@ -1,0 +1,16 @@
+{{#if addNewCategory}}
+  <h5>New Category</h5>
+  <form>
+    <div class="form-group">
+      <label for="name" placeholder="ex: Veggetable">Category Name</label>
+      {{input value=name id="name"}}
+    </div>
+    <div class="form-group">
+      <label for="image" placeholder="Image URL">Image</label>
+      {{input value=image id="image"}}
+    </div>
+    <button {{action 'save'}}>Save</button>
+  </form>
+{{else}}
+<button {{action 'categoryFormShow'}}>Add Category</button>
+{{/if}}

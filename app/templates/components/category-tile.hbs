@@ -1,2 +1,4 @@
-<h5>{{category.name}}</h5>
-<p><img src={{category.image}}></p>
+{{#link-to 'category' category.id}}
+  <h5>{{category.name}}</h5>
+  <p><img src={{category.image}}></p>
+{{/link-to}}
