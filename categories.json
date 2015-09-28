@@ -1,0 +1,14 @@
+{ "categories": [{
+  "name": "animal",
+  "image": "http://www.artyfactory.com/art_appreciation/animals_in_art/durer/rhinoceros.jpg",
+  "listings": [
+    {" title": "monkey skull", "seller": "Macabre Mike", "price": "best offer", "description": "a little monkey skull", "image": "http://previewcf.turbosquid.com/Preview/2014/05/26__16_07_42/skull1.jpgbd7ba5eb-f850-43ff-9569-6b2f9b654e9cLarger.jpg"},
+    {" title": "antique fox stole", "seller": "Fancy Fiona", "price": "200$", "description": "A furry friend for your cold neck!", "image": "http://marrymeink.co.uk/wp-content/uploads/2013/08/swamp3.jpg"}
+  ]}, {
+    "name": "mineral",
+    "image": "https://s-media-cache-ak0.pinimg.com/originals/81/a3/e8/81a3e815c8285cfb78bc5b44434be184.jpg",
+    "listings": [
+      {" title": "love dust", "seller": "Loony Lisa", "price": "10$ an oz.", "description": "A seduction helper. Simply put it in your beloved's cup and viola!", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaIYjZz_rY75XWNrrZYoTcbJe-nZshQpTf38KPFlZDDef7loYiGQ"},
+      {" title": "antique poison ring", "seller": "Felonious Felicity", "price": "200$", "description": "To slip something into an unsuspecting person's drink. Perhaps a magic potion...", "image": "https://s-media-cache-ak0.pinimg.com/236x/b6/2f/0d/b62f0d76684d276956d7742b9c160a76.jpg"}]
+  }]
+}
