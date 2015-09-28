@@ -1,23 +1,23 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  addNewListing: false,
+  updateListingForm: false,
+
   actions: {
-    listingFormShow() {
-      this.set('addNewListing', true);
+    updateListingForm(){
+      this.set('updateListingForm', true);
     },
-    saveListing() {
-      var params = {
+    update(listing) {
+      var params= {
         title: this.get('title'),
         seller: this.get('seller'),
         price: this.get('price'),
         description: this.get('description'),
         image: this.get('image'),
-        category: this.get('category'),
-        date_added: new Date()
+        category: this.get('category')
       };
-      this.set('addNewListing', false);
-      this.sendAction('saveListing', params);
+      this.set('updateListingForm', false),
+      this.sendAction('update', listing, params)
     }
   }
 });
